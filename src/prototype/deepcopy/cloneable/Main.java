@@ -1,7 +1,9 @@
 package prototype.deepcopy.cloneable;
 
 
-
+/**
+ * 原型模式：cloneable接口实现深拷贝
+ */
 public class Main {
     public static void main(String[] args) throws Exception {
         Teather t = new Teather("赵老师",38);

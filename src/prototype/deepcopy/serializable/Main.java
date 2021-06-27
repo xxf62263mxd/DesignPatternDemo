@@ -3,6 +3,9 @@ package prototype.deepcopy.serializable;
 
 import java.io.*;
 
+/**
+ * 原型模式：serializable接口实现深拷贝
+ */
 public class Main {
     public static void main(String[] args) throws Exception {
         ByteArrayOutputStream bao = new ByteArrayOutputStream();

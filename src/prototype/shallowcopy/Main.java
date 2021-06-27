@@ -1,5 +1,7 @@
 package prototype.shallowcopy;
-
+/**
+ * 原型模式：cloneable接口实现浅拷贝
+ */
 public class Main {
     public static void main(String[] args) throws CloneNotSupportedException {
         Teather t = new Teather("赵老师",38);
